@@ -1,0 +1,14 @@
+{
+    "photolibrary": {
+        "images": "../photolibrary/images",
+        "thumbs": "../photolibrary/thumbs"
+    },
+    "whitelistedExtensions": [
+        ".jpg",
+        ".png",
+        ".jpeg",
+        ".bmp"
+    ],
+    "ignoreFiles": [
+    ]
+}
