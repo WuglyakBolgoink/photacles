@@ -1,0 +1,61 @@
+{
+    "extends": [
+        "airbnb-base",
+        "eslint:recommended",
+        "plugin:lodash/canonical",
+        "plugin:security/recommended"
+    ],
+    "plugins": [
+        "lodash",
+        "security",
+        "xss",
+        "no-unsafe-regex"
+    ],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals": {
+    },
+    "rules": {
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "no-console": [
+            "error",
+            {
+                "allow": [
+                    "error"
+                ]
+            }
+        ],
+        "indent": [
+            "warn",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "max-len": [
+            "off",
+            {
+                "code": 140
+            }
+        ],
+        "lodash/chaining": "warn",
+        "lodash/prefer-includes": "warn",
+        "lodash/prefer-lodash-method": "warn",
+        "angular/window-service": "off",
+        "angular/document-service": "off",
+        "angular/no-run-logic": "off",
+        "angular/controller-as-route": "off",
+        "angular/file-name": "off",
+        "angular/controller-name": "off",
+        "angular/controller-as": "off",
+        "angular/controller-as-vm": "off",
+        "angular/function-type": "off",
+        "lodash/prefer-noop": "off",
+        "lodash/matches-prop-shorthand": "off"
+    }
+}
