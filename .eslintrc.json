@@ -42,20 +42,6 @@
             {
                 "code": 140
             }
-        ],
-        "lodash/chaining": "warn",
-        "lodash/prefer-includes": "warn",
-        "lodash/prefer-lodash-method": "warn",
-        "angular/window-service": "off",
-        "angular/document-service": "off",
-        "angular/no-run-logic": "off",
-        "angular/controller-as-route": "off",
-        "angular/file-name": "off",
-        "angular/controller-name": "off",
-        "angular/controller-as": "off",
-        "angular/controller-as-vm": "off",
-        "angular/function-type": "off",
-        "lodash/prefer-noop": "off",
-        "lodash/matches-prop-shorthand": "off"
+        ]
     }
 }

@@ -1,4 +1,7 @@
 {
+    "server": {
+        "port": 3000
+    },
     "photolibrary": {
         "images": "../photolibrary/images",
         "thumbs": "../photolibrary/thumbs"
